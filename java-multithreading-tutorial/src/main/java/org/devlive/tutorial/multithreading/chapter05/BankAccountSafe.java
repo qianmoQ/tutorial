@@ -20,13 +20,19 @@ public class BankAccountSafe
         // 使用线程池创建10个线程
         ExecutorService executor = Executors.newFixedThreadPool(10);
         // 使用CountDownLatch等待所有线程完成
-        CountDownLatch latch = new CountDownLatch(50);
+        CountDownLatch latch = new CountDownLatch(100);
 
         // 提交100个转账任务
         for (int i = 0; i < 50; i++) {
             // A账户向B账户转账
             executor.submit(() -> {
                 new TransferTask(accountA, accountB, 10).run();
+                latch.countDown();
+            });
+
+            // B账户向A账户转账
+            executor.submit(() -> {
+                new TransferTask(accountB, accountA, 10).run();
                 latch.countDown();
             });
         }
