@@ -6,3 +6,4 @@
 
 - [第01章：Stream是什么？5分钟让你的循环代码变优雅](docs/chapter-01-第01章：Stream是什么？5分钟让你的循环代码变优雅.md)
 - [第02章：创建Stream的N种方法：让数据流起来](docs/chapter-02-第02章：创建Stream的N种方法：让数据流起来.md)
+- [第03章：无限流：generate()和iterate()的神奇用法](docs/chapter-03-第03章：无限流：generate()和iterate()的神奇用法.md)
