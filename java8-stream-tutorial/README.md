@@ -10,3 +10,4 @@
 - [第04章：数字流专题：IntStream让数学计算更简单](docs/chapter-04-第04章：数字流专题：IntStream让数学计算更简单.md)
 - [第05章：filter()：数据过滤器，想要什么筛什么](docs/chapter-05-第05章：filter()：数据过滤器，想要什么筛什么.md)
 - [第06章：map()：数据变形金刚，想变什么变什么](docs/chapter-06-第06章：map()：数据变形金刚，想变什么变什么.md)
+- [第07章：flatMap()：处理嵌套数据的利器](docs/chapter-07-第07章：flatMap()：处理嵌套数据的利器.md)
